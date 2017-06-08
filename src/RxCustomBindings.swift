@@ -16,11 +16,11 @@ infix operator =>
 
 //MARK: Bidirectional bindings
 
-func <-> <T>(property: ControlProperty<T>?, variable: Variable<T>) -> Disposable {
+public func <-> <T>(property: ControlProperty<T>?, variable: Variable<T>) -> Disposable {
     return bidirectionalBinding(property: property, variable: variable)
 }
 
-func bidirectionalBinding<T>(property: ControlProperty<T>?, variable: Variable<T>) -> Disposable {
+public func bidirectionalBinding<T>(property: ControlProperty<T>?, variable: Variable<T>) -> Disposable {
     if let p = property {
         let bindToUIDisposable = variable => p
         let bindToVariable = p.asDriver().asObservable().subscribe(onNext: { n in
@@ -35,7 +35,7 @@ func bidirectionalBinding<T>(property: ControlProperty<T>?, variable: Variable<T
 
 //MARK: Directional binding to ControlProperty
 
-func bindToProperty<T>(variable: Variable<T>, property: ControlProperty<T>?) -> Disposable {
+public func bindToProperty<T>(variable: Variable<T>, property: ControlProperty<T>?) -> Disposable {
     if let p = property {
         let bindToUIDisposable = variable.asDriver().asObservable().bind(to: p)
         return bindToUIDisposable
@@ -43,7 +43,7 @@ func bindToProperty<T>(variable: Variable<T>, property: ControlProperty<T>?) -> 
     return Disposables.create()
 }
 
-func => <T>(variable: Variable<T>, property: ControlProperty<T>?) -> Disposable {
+public func => <T>(variable: Variable<T>, property: ControlProperty<T>?) -> Disposable {
     if let p = property {
         return bindToProperty(variable: variable, property: p)
     }
@@ -52,40 +52,40 @@ func => <T>(variable: Variable<T>, property: ControlProperty<T>?) -> Disposable 
 
 //MARK: Directional binding to Observer
 
-func bindToObserver<O,T> (variable: Variable<T>, observer: O?, disposeBag: DisposeBag) where O : ObserverType, O.E == T? {
+public func bindToObserver<O,T> (variable: Variable<T>, observer: O?, disposeBag: DisposeBag) where O : ObserverType, O.E == T? {
     if let obs = observer {
         variable.asDriver().asObservable().bind(to: obs).disposed(by: disposeBag)
     }
 }
 
-func bindToObserver<O,T> (variable: Variable<T>, observer: O?, disposeBag: DisposeBag) where O : ObserverType, O.E == T {
+public func bindToObserver<O,T> (variable: Variable<T>, observer: O?, disposeBag: DisposeBag) where O : ObserverType, O.E == T {
     if let obs = observer {
         variable.asDriver().asObservable().bind(to: obs).disposed(by: disposeBag)
     }
 }
 
-func bindToObserver<O,T> (variable: Variable<T>, observer: O?) where O : ObserverType, O.E == T {
+public func bindToObserver<O,T> (variable: Variable<T>, observer: O?) where O : ObserverType, O.E == T {
     if let obs = observer {
         _ = variable.asDriver().asObservable().bind(to: obs)
     }
 }
 
-func bindToObserver<O,T> (variable: Variable<T>, observer: O?) where O : ObserverType, O.E == T? {
+public func bindToObserver<O,T> (variable: Variable<T>, observer: O?) where O : ObserverType, O.E == T? {
     if let obs = observer {
         _ = variable.asDriver().asObservable().bind(to: obs)
     }
 }
 
-func => <O,T>(variable: Variable<T>, observer: O?) where O : ObserverType, O.E == T {
+public func => <O,T>(variable: Variable<T>, observer: O?) where O : ObserverType, O.E == T {
     bindToObserver(variable: variable,observer: observer)
 }
 
-func => <O,T>(variable: Variable<T>, observer: O?) where O : ObserverType, O.E == T? {
+public func => <O,T>(variable: Variable<T>, observer: O?) where O : ObserverType, O.E == T? {
     bindToObserver(variable: variable,observer: observer)
 }
 
 //MARK: Directional binding onNext closure
 
-func bindOnNext<T>( _ variable: Variable<T>, _ onNext: @escaping (T) -> (Void)) {
+public func bindOnNext<T>( _ variable: Variable<T>, _ onNext: @escaping (T) -> (Void)) {
     _ = variable.asDriver().asObservable().bind(onNext: onNext)
 }
