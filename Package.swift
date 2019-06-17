@@ -3,19 +3,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "T21RxAdditions",
+    name: "t21_rxadditions_ios",
     products: [
         .library(
-            name: "T21RxAdditions",
-            targets: ["T21RxAdditions"]),
+            name: "t21_rxadditions_ios",
+            targets: ["t21_rxadditions_ios"]),
     ],
     dependencies: [
         .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0.1")
     ],
     targets: [
         .target(
-            name: "T21RxAdditions",
-            dependencies: ["RxSwift,RxCocoa"],
+            name: "t21_rxadditions_ios",
+            dependencies: ["RxSwift"],
             path: "./src"),
     ]
 )
