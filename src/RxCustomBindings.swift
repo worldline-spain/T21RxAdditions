@@ -52,35 +52,35 @@ public func => <T>(behaviorRelay: BehaviorRelay<T>, property: ControlProperty<T>
 
 //MARK: Directional binding to Observer
 
-public func bindToObserver<O,T> (behaviorRelay: BehaviorRelay<T>, observer: O?, disposeBag: DisposeBag) where O : ObserverType, O.E == T? {
+public func bindToObserver<O,T> (behaviorRelay: BehaviorRelay<T>, observer: O?, disposeBag: DisposeBag) where O : ObserverType, O.Element == T? {
     if let obs = observer {
         behaviorRelay.asDriver().asObservable().bind(to: obs).disposed(by: disposeBag)
     }
 }
 
-public func bindToObserver<O,T> (behaviorRelay: BehaviorRelay<T>, observer: O?, disposeBag: DisposeBag) where O : ObserverType, O.E == T {
+public func bindToObserver<O,T> (behaviorRelay: BehaviorRelay<T>, observer: O?, disposeBag: DisposeBag) where O : ObserverType, O.Element == T {
     if let obs = observer {
         behaviorRelay.asDriver().asObservable().bind(to: obs).disposed(by: disposeBag)
     }
 }
 
-public func bindToObserver<O,T> (behaviorRelay: BehaviorRelay<T>, observer: O?) where O : ObserverType, O.E == T {
+public func bindToObserver<O,T> (behaviorRelay: BehaviorRelay<T>, observer: O?) where O : ObserverType, O.Element == T {
     if let obs = observer {
         _ = behaviorRelay.asDriver().asObservable().bind(to: obs)
     }
 }
 
-public func bindToObserver<O,T> (behaviorRelay: BehaviorRelay<T>, observer: O?) where O : ObserverType, O.E == T? {
+public func bindToObserver<O,T> (behaviorRelay: BehaviorRelay<T>, observer: O?) where O : ObserverType, O.Element == T? {
     if let obs = observer {
         _ = behaviorRelay.asDriver().asObservable().bind(to: obs)
     }
 }
 
-public func => <O,T>(behaviorRelay: BehaviorRelay<T>, observer: O?) where O : ObserverType, O.E == T {
+public func => <O,T>(behaviorRelay: BehaviorRelay<T>, observer: O?) where O : ObserverType, O.Element == T {
     bindToObserver(behaviorRelay: behaviorRelay,observer: observer)
 }
 
-public func => <O,T>(behaviorRelay: BehaviorRelay<T>, observer: O?) where O : ObserverType, O.E == T? {
+public func => <O,T>(behaviorRelay: BehaviorRelay<T>, observer: O?) where O : ObserverType, O.Element == T? {
     bindToObserver(behaviorRelay: behaviorRelay,observer: observer)
 }
 

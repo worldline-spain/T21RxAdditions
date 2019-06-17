@@ -7,7 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B69F545679562E775F3E05C4 /* Pods_t21_rxadditions_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125273387EDE3E863E16EBAE /* Pods_t21_rxadditions_ios.framework */; };
+		3F60411022B7926E001C83AB /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60410F22B7926E001C83AB /* Package.swift */; };
+		3F60411722B79447001C83AB /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1822B779D4000E1167 /* RxBlocking.framework */; };
+		3F60411822B79447001C83AB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1722B779D4000E1167 /* RxCocoa.framework */; };
+		3F60411922B79447001C83AB /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4DF29722B77CE60057957F /* RxRelay.framework */; };
+		3F60411A22B79447001C83AB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1522B779D3000E1167 /* RxSwift.framework */; };
+		3F60411B22B79447001C83AB /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1622B779D3000E1167 /* RxTest.framework */; };
+		3F60411C22B7944B001C83AB /* RxRelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E4DF29722B77CE60057957F /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F60411D22B7944B001C83AB /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E08FF1822B779D4000E1167 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F60411E22B7944B001C83AB /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E08FF1722B779D4000E1167 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F60411F22B7944B001C83AB /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E08FF1522B779D3000E1167 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F60412022B7944B001C83AB /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E08FF1622B779D3000E1167 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E4DF29322B77CE60057957F /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1822B779D4000E1167 /* RxBlocking.framework */; };
+		9E4DF29422B77CE60057957F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1722B779D4000E1167 /* RxCocoa.framework */; };
+		9E4DF29522B77CE60057957F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1522B779D3000E1167 /* RxSwift.framework */; };
+		9E4DF29622B77CE60057957F /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1622B779D3000E1167 /* RxTest.framework */; };
+		9E4DF29822B77CE60057957F /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4DF29722B77CE60057957F /* RxRelay.framework */; };
+		9E4DF29922B77CF20057957F /* RxRelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E4DF29722B77CE60057957F /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E4DF29A22B77CF20057957F /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E08FF1822B779D4000E1167 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E4DF29B22B77CF20057957F /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E08FF1722B779D4000E1167 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E4DF29C22B77CF20057957F /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E08FF1522B779D3000E1167 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E4DF29D22B77CF20057957F /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E08FF1622B779D3000E1167 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E4DF2A722B780570057957F /* T21RxAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4DF2A522B780570057957F /* T21RxAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E4DF2AA22B780570057957F /* T21RxAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4DF2A322B780570057957F /* T21RxAdditions.framework */; };
+		9E4DF2AB22B780570057957F /* T21RxAdditions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E4DF2A322B780570057957F /* T21RxAdditions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E4DF2AF22B7805F0057957F /* RxCustomBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D1C911EE8065C00B7D318 /* RxCustomBindings.swift */; };
 		B96D1C711EE805FC00B7D318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D1C701EE805FC00B7D318 /* AppDelegate.swift */; };
 		B96D1C731EE805FC00B7D318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D1C721EE805FC00B7D318 /* ViewController.swift */; };
 		B96D1C761EE805FC00B7D318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96D1C741EE805FC00B7D318 /* Main.storyboard */; };
@@ -18,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9E4DF2A822B780570057957F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96D1C651EE805FC00B7D318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E4DF2A222B780570057957F;
+			remoteInfo = T21RxAdditions;
+		};
 		B96D1C821EE805FC00B7D318 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B96D1C651EE805FC00B7D318 /* Project object */;
@@ -27,10 +58,48 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3F60411122B7938D001C83AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F60411C22B7944B001C83AB /* RxRelay.framework in CopyFiles */,
+				3F60411D22B7944B001C83AB /* RxBlocking.framework in CopyFiles */,
+				3F60411E22B7944B001C83AB /* RxCocoa.framework in CopyFiles */,
+				3F60411F22B7944B001C83AB /* RxSwift.framework in CopyFiles */,
+				3F60412022B7944B001C83AB /* RxTest.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E08FF1D22B779D6000E1167 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9E4DF29922B77CF20057957F /* RxRelay.framework in CopyFiles */,
+				9E4DF29A22B77CF20057957F /* RxBlocking.framework in CopyFiles */,
+				9E4DF2AB22B780570057957F /* T21RxAdditions.framework in CopyFiles */,
+				9E4DF29B22B77CF20057957F /* RxCocoa.framework in CopyFiles */,
+				9E4DF29C22B77CF20057957F /* RxSwift.framework in CopyFiles */,
+				9E4DF29D22B77CF20057957F /* RxTest.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		125273387EDE3E863E16EBAE /* Pods_t21_rxadditions_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_t21_rxadditions_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19D2520BDBC521B7A160EBC1 /* Pods-t21_rxadditions_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t21_rxadditions_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-t21_rxadditions_ios/Pods-t21_rxadditions_ios.release.xcconfig"; sourceTree = "<group>"; };
-		76CA0B5D64F25AD3291DE851 /* Pods-t21_rxadditions_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t21_rxadditions_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-t21_rxadditions_ios/Pods-t21_rxadditions_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		3F60410F22B7926E001C83AB /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		9E08FF1522B779D3000E1167 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		9E08FF1622B779D3000E1167 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		9E08FF1722B779D4000E1167 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		9E08FF1822B779D4000E1167 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		9E4DF29722B77CE60057957F /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		9E4DF2A322B780570057957F /* T21RxAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21RxAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4DF2A522B780570057957F /* T21RxAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21RxAdditions.h; sourceTree = "<group>"; };
+		9E4DF2A622B780570057957F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B96D1C6D1EE805FC00B7D318 /* t21_rxadditions_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = t21_rxadditions_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96D1C701EE805FC00B7D318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B96D1C721EE805FC00B7D318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,11 +114,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9E4DF2A022B780570057957F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F60411722B79447001C83AB /* RxBlocking.framework in Frameworks */,
+				3F60411822B79447001C83AB /* RxCocoa.framework in Frameworks */,
+				3F60411922B79447001C83AB /* RxRelay.framework in Frameworks */,
+				3F60411A22B79447001C83AB /* RxSwift.framework in Frameworks */,
+				3F60411B22B79447001C83AB /* RxTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B96D1C6A1EE805FC00B7D318 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B69F545679562E775F3E05C4 /* Pods_t21_rxadditions_ios.framework in Frameworks */,
+				9E4DF29822B77CE60057957F /* RxRelay.framework in Frameworks */,
+				9E4DF29322B77CE60057957F /* RxBlocking.framework in Frameworks */,
+				9E4DF2AA22B780570057957F /* T21RxAdditions.framework in Frameworks */,
+				9E4DF29422B77CE60057957F /* RxCocoa.framework in Frameworks */,
+				9E4DF29522B77CE60057957F /* RxSwift.framework in Frameworks */,
+				9E4DF29622B77CE60057957F /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,23 +149,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06AE86A86EA16ACC99131629 /* Frameworks */ = {
+		9E08FF1422B779D3000E1167 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				125273387EDE3E863E16EBAE /* Pods_t21_rxadditions_ios.framework */,
+				9E4DF29722B77CE60057957F /* RxRelay.framework */,
+				9E08FF1822B779D4000E1167 /* RxBlocking.framework */,
+				9E08FF1722B779D4000E1167 /* RxCocoa.framework */,
+				9E08FF1522B779D3000E1167 /* RxSwift.framework */,
+				9E08FF1622B779D3000E1167 /* RxTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E4DF2A422B780570057957F /* T21RxAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				9E4DF2A522B780570057957F /* T21RxAdditions.h */,
+				9E4DF2A622B780570057957F /* Info.plist */,
+			);
+			path = T21RxAdditions;
 			sourceTree = "<group>";
 		};
 		B96D1C641EE805FC00B7D318 = {
 			isa = PBXGroup;
 			children = (
+				3F60410F22B7926E001C83AB /* Package.swift */,
 				B96D1C901EE8063E00B7D318 /* src */,
 				B96D1C6F1EE805FC00B7D318 /* t21_rxadditions_ios */,
 				B96D1C841EE805FC00B7D318 /* t21_rxadditions_iosTests */,
+				9E4DF2A422B780570057957F /* T21RxAdditions */,
 				B96D1C6E1EE805FC00B7D318 /* Products */,
-				CC552C1B1D37112E1258AA40 /* Pods */,
-				06AE86A86EA16ACC99131629 /* Frameworks */,
+				9E08FF1422B779D3000E1167 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +188,7 @@
 			children = (
 				B96D1C6D1EE805FC00B7D318 /* t21_rxadditions_ios.app */,
 				B96D1C811EE805FC00B7D318 /* t21_rxadditions_iosTests.xctest */,
+				9E4DF2A322B780570057957F /* T21RxAdditions.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,32 +223,52 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		CC552C1B1D37112E1258AA40 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				76CA0B5D64F25AD3291DE851 /* Pods-t21_rxadditions_ios.debug.xcconfig */,
-				19D2520BDBC521B7A160EBC1 /* Pods-t21_rxadditions_ios.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9E4DF29E22B780570057957F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4DF2A722B780570057957F /* T21RxAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B96D1C6C1EE805FC00B7D318 /* t21_rxadditions_ios */ = {
+		9E4DF2A222B780570057957F /* T21RxAdditions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B96D1C8A1EE805FC00B7D318 /* Build configuration list for PBXNativeTarget "t21_rxadditions_ios" */;
+			buildConfigurationList = 9E4DF2AC22B780570057957F /* Build configuration list for PBXNativeTarget "T21RxAdditions" */;
 			buildPhases = (
-				9557BB4569E7FF83828A24BE /* [CP] Check Pods Manifest.lock */,
-				B96D1C691EE805FC00B7D318 /* Sources */,
-				B96D1C6A1EE805FC00B7D318 /* Frameworks */,
-				B96D1C6B1EE805FC00B7D318 /* Resources */,
-				ED90B5A6A77446D9DE2E2633 /* [CP] Embed Pods Frameworks */,
-				42825B3B5D187D5714C3FF1A /* [CP] Copy Pods Resources */,
+				9E4DF29E22B780570057957F /* Headers */,
+				9E4DF29F22B780570057957F /* Sources */,
+				9E4DF2A022B780570057957F /* Frameworks */,
+				9E4DF2A122B780570057957F /* Resources */,
+				3F60411122B7938D001C83AB /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = T21RxAdditions;
+			productName = T21RxAdditions;
+			productReference = 9E4DF2A322B780570057957F /* T21RxAdditions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B96D1C6C1EE805FC00B7D318 /* t21_rxadditions_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96D1C8A1EE805FC00B7D318 /* Build configuration list for PBXNativeTarget "t21_rxadditions_ios" */;
+			buildPhases = (
+				B96D1C691EE805FC00B7D318 /* Sources */,
+				B96D1C6A1EE805FC00B7D318 /* Frameworks */,
+				B96D1C6B1EE805FC00B7D318 /* Resources */,
+				9E08FF1D22B779D6000E1167 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E4DF2A922B780570057957F /* PBXTargetDependency */,
 			);
 			name = t21_rxadditions_ios;
 			productName = t21_rxadditions_ios;
@@ -179,19 +300,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Worldline;
 				TargetAttributes = {
+					9E4DF2A222B780570057957F = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = C2UZU6ZLJE;
+						ProvisioningStyle = Automatic;
+					};
 					B96D1C6C1EE805FC00B7D318 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = C2UZU6ZLJE;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					B96D1C801EE805FC00B7D318 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = C2UZU6ZLJE;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B96D1C6C1EE805FC00B7D318;
 					};
@@ -199,7 +325,7 @@
 			};
 			buildConfigurationList = B96D1C681EE805FC00B7D318 /* Build configuration list for PBXProject "t21_rxadditions_ios" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -212,11 +338,19 @@
 			targets = (
 				B96D1C6C1EE805FC00B7D318 /* t21_rxadditions_ios */,
 				B96D1C801EE805FC00B7D318 /* t21_rxadditions_iosTests */,
+				9E4DF2A222B780570057957F /* T21RxAdditions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9E4DF2A122B780570057957F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B96D1C6B1EE805FC00B7D318 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,59 +370,20 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		42825B3B5D187D5714C3FF1A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-t21_rxadditions_ios/Pods-t21_rxadditions_ios-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9557BB4569E7FF83828A24BE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		ED90B5A6A77446D9DE2E2633 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-t21_rxadditions_ios/Pods-t21_rxadditions_ios-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
+		9E4DF29F22B780570057957F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4DF2AF22B7805F0057957F /* RxCustomBindings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B96D1C691EE805FC00B7D318 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F60411022B7926E001C83AB /* Package.swift in Sources */,
 				B96D1C731EE805FC00B7D318 /* ViewController.swift in Sources */,
 				B96D1C711EE805FC00B7D318 /* AppDelegate.swift in Sources */,
 				B96D1C921EE8065C00B7D318 /* RxCustomBindings.swift in Sources */,
@@ -306,6 +401,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9E4DF2A922B780570057957F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E4DF2A222B780570057957F /* T21RxAdditions */;
+			targetProxy = 9E4DF2A822B780570057957F /* PBXContainerItemProxy */;
+		};
 		B96D1C831EE805FC00B7D318 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B96D1C6C1EE805FC00B7D318 /* t21_rxadditions_ios */;
@@ -333,6 +433,75 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9E4DF2AD22B780570057957F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21RxAdditions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21RxAdditions;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E4DF2AE22B780570057957F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21RxAdditions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21RxAdditions;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B96D1C881EE805FC00B7D318 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -343,15 +512,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -394,15 +571,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -430,31 +615,39 @@
 		};
 		B96D1C8B1EE805FC00B7D318 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76CA0B5D64F25AD3291DE851 /* Pods-t21_rxadditions_ios.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = t21_rxadditions_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tempos21.t21-rxadditions-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		B96D1C8C1EE805FC00B7D318 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19D2520BDBC521B7A160EBC1 /* Pods-t21_rxadditions_ios.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = t21_rxadditions_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tempos21.t21-rxadditions-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -468,8 +661,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tempos21.t21-rxadditions-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/t21_rxadditions_ios.app/t21_rxadditions_ios";
 			};
 			name = Debug;
@@ -484,8 +676,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tempos21.t21-rxadditions-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/t21_rxadditions_ios.app/t21_rxadditions_ios";
 			};
 			name = Release;
@@ -493,6 +684,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9E4DF2AC22B780570057957F /* Build configuration list for PBXNativeTarget "T21RxAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4DF2AD22B780570057957F /* Debug */,
+				9E4DF2AE22B780570057957F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B96D1C681EE805FC00B7D318 /* Build configuration list for PBXProject "t21_rxadditions_ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
