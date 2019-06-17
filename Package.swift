@@ -3,10 +3,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "t21_rxadditions_ios",
+    name: "T21RxAdditions",
     products: [
         .library(
-            name: "t21_rxadditions_ios",
+            name: "T21RxAdditions",
             targets: ["T21RxAdditions"]),
     ],
     dependencies: [
@@ -14,7 +14,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "t21_rxadditions_ios",
+            name: "T21RxAdditions",
             dependencies: ["RxSwift,RxCocoa"],
             path: "./src"),
     ]
