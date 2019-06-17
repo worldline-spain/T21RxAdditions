@@ -10,12 +10,12 @@ let package = Package(
             targets: ["t21_rxadditions_ios"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0.1")
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0.0")
     ],
     targets: [
         .target(
             name: "t21_rxadditions_ios",
-            dependencies: ["RxSwift"],
+            dependencies: ["RxSwift", "RxCocoa"],
             path: "./src"),
     ]
 )
