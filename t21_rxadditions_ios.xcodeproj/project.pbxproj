@@ -21,11 +21,9 @@
 		9E4DF2AA22B780570057957F /* T21RxAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4DF2A322B780570057957F /* T21RxAdditions.framework */; };
 		9E4DF2AB22B780570057957F /* T21RxAdditions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E4DF2A322B780570057957F /* T21RxAdditions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9E4DF2AF22B7805F0057957F /* RxCustomBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D1C911EE8065C00B7D318 /* RxCustomBindings.swift */; };
-		9E4DF2B022B7807A0057957F /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1822B779D4000E1167 /* RxBlocking.framework */; };
 		9E4DF2B122B7807A0057957F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1722B779D4000E1167 /* RxCocoa.framework */; };
 		9E4DF2B222B7807A0057957F /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4DF29722B77CE60057957F /* RxRelay.framework */; };
 		9E4DF2B322B7807A0057957F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1522B779D3000E1167 /* RxSwift.framework */; };
-		9E4DF2B422B7807A0057957F /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08FF1622B779D3000E1167 /* RxTest.framework */; };
 		B96D1C711EE805FC00B7D318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D1C701EE805FC00B7D318 /* AppDelegate.swift */; };
 		B96D1C731EE805FC00B7D318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D1C721EE805FC00B7D318 /* ViewController.swift */; };
 		B96D1C761EE805FC00B7D318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96D1C741EE805FC00B7D318 /* Main.storyboard */; };
@@ -97,11 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E4DF2B022B7807A0057957F /* RxBlocking.framework in Frameworks */,
 				9E4DF2B122B7807A0057957F /* RxCocoa.framework in Frameworks */,
 				9E4DF2B222B7807A0057957F /* RxRelay.framework in Frameworks */,
 				9E4DF2B322B7807A0057957F /* RxSwift.framework in Frameworks */,
-				9E4DF2B422B7807A0057957F /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
