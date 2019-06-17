@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "t21_rxadditions_ios",
-            dependencies: ["RxSwift"],
+            dependencies: ["RxSwift,RxCocoa"],
             path: "./src"),
     ]
 )
